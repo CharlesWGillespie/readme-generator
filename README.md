@@ -25,7 +25,8 @@ node, javascript
 ## Walkthrough Video 
 
 
-https://github.com/CharlesWGillespie/readme-generator/assets/143773137/afc18817-6b82-4806-9789-38b46675bcdf
+https://github.com/CharlesWGillespie/readme-generator/assets/143773137/1db7c744-29ed-4b5b-bf74-9c1f0aad733c
+
 
 
 
