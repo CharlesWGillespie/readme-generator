@@ -68,7 +68,7 @@ This project is licensed under the GNU General Public License v2.0 - see the [GN
 
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown({ title, description, install, usage, license, contribution, test, gitHubUser, email }) {
+function generateMarkdown({ title, description, installation, usage, license, contribution, test, gitHubUserName, emailAddress }) {
   return `# ${title} ${renderLicenseBadge(license)}
 
 ## Description
@@ -85,12 +85,12 @@ function generateMarkdown({ title, description, install, usage, license, contrib
 
 
 ## Installation
-${ install }
+${ installation }
 
 ## Usage
 ${ usage }
 
-## Contributing
+## Contribution
 ${ contribution }
 
 ## Testing
@@ -101,9 +101,9 @@ ${ renderLicenseSection(license) }
 ## Questions
 For questions the project, I can be contacted through GitHub or via email.
 
-GitHub - https://github.com/${ gitHubUser }
+GitHub - https://github.com/${ gitHubUserName }
 
-Email - ${ email }`;
+Email - ${ emailAddress }`;
 }
 
 module.exports = generateMarkdown;
